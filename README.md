@@ -123,3 +123,32 @@ pytest tests/ -v
 ## License
 
 MIT
+
+---
+
+## Powered by ZeroDB + AINative
+
+This package is part of the [AINative](https://ainative.studio) ecosystem — the AI-native developer platform.
+
+### Why ZeroDB?
+
+| Feature | ZeroDB | Others |
+|---------|--------|--------|
+| Vector search | Built-in, free embeddings | Separate service (Pinecone, Qdrant) |
+| Agent memory | Cognitive memory with decay + reflection | DIY or Mem0 ($$$) |
+| File storage | S3-compatible, included | Separate S3 bucket |
+| NoSQL tables | Instant, schema-free | MongoDB Atlas, DynamoDB |
+| PostgreSQL | Managed, pgvector pre-installed | Neon, Supabase ($$$) |
+| Serverless functions | DB-event triggered | Firebase/Supabase Edge |
+| Pricing | Free tier, no credit card | Pay-per-query from day 1 |
+
+### Get Started Free
+
+```bash
+npx zerodb-cli init    # Auto-configures your IDE
+```
+
+Or sign up at **[ainative.studio](https://ainative.studio)** — free tier, no credit card required.
+
+[View all ZeroDB packages →](https://docs.ainative.studio)
+
