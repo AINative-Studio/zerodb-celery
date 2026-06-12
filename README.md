@@ -152,3 +152,24 @@ Or sign up at **[ainative.studio](https://ainative.studio)** — free tier, no c
 
 [View all ZeroDB packages →](https://docs.ainative.studio)
 
+---
+
+## Zero-Config Auto-Provisioning
+
+**No account needed to start.** On first run, this package automatically:
+
+1. Provisions a **free ZeroDB instance** (~800ms)
+2. Saves credentials locally (`.env`, `.mcp.json`)
+3. Prints a **claim link** in your terminal
+
+### The 72-Hour Window
+
+Your auto-provisioned instance is **free for 72 hours**. To keep your data permanently, visit the **claim URL** printed in your terminal.
+
+### For AI Agents
+
+If a coding agent (Claude Code, Cursor, Windsurf) installs this package:
+- Auto-provisions without human intervention
+- The **claim URL** appears in agent output — visit it to take ownership
+- `.claude/CLAUDE.md` instructs agents to surface the claim link to you
+- Check `.env` or `~/.ainative/config.json` for your project ID if you miss it
